@@ -8,19 +8,10 @@ import logoImg from '../../image/Logo_title.png';
 
 class Navbar extends Component {
 
-  // state = { clicked: false };
-
-  // handleClick = () => {
-  //   this.setState({ clicked: !this.state.clicked });
-  // }
-
   render() {
     return (
       <nav className="NavbarItems">
         <img src={logoImg} alt="" className="navbar-logo" />
-        {/* <div className="menu-icon" onClick={this.handleClick}>
-          <div className={this.state.clicked ? <FaBars /> : <FaTimes />}></div>
-        </div> */}
         <ul className="nav-menu">
           {MenuItems.map((item, index) => {
             return (
