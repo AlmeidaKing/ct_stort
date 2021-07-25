@@ -1,5 +1,5 @@
-import { css } from "styled-components";
-import bg_header from "./bg_header.jpg";
+import { css } from 'styled-components';
+import bg_header from '../../images/bg_header.jpg';
 
 export const HeaderStyle = css`
   background-image: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),

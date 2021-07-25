@@ -5,7 +5,6 @@ import ServicesSection from '../components/ServicesSection';
 import AboutTC from '../components/AboutTC';
 import AboutTrainer from '../components/AboutTrainer';
 
-
 function Home() {
   return (
     <>

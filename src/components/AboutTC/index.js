@@ -1,9 +1,14 @@
-import React from "react";
-import styled, { css } from "styled-components";
-import TC_background from "./TC_background.jpg";
+import React from 'react';
+import styled, { css } from 'styled-components';
+import TC_background from '../../images/TC_background.jpg';
 
 const ContainerStyle = css`
-  background-image: linear-gradient(to right top,  rgba(0,0,0,.2), rgba(0,0,0,.9)), url(${TC_background});
+  background-image: linear-gradient(
+      to right top,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(${TC_background});
   background-size: cover;
   background-position: right;
   height: 100vh;
@@ -61,7 +66,7 @@ const CallStyled = styled.div`
     font-size: 16px;
     bottom: 120px;
   }
-`
+`;
 
 const ContainerStyled = styled.div([ContainerStyle]);
 
@@ -74,9 +79,7 @@ const AboutTC = () => {
         marcada, planejamento de treino personalizado, avaliação física, ouvindo
         sua playlist preferida!
       </Text>
-      <CallStyled>
-        Venha fazer parte também!
-      </CallStyled>
+      <CallStyled>Venha fazer parte também!</CallStyled>
     </ContainerStyled>
   );
 };

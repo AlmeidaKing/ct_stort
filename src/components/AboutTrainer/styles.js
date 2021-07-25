@@ -7,4 +7,4 @@ export const Container = styled.section`
   .title {
     margin-top: 100px;
   }
-`
+`;

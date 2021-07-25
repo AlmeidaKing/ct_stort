@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
@@ -32,7 +32,7 @@ export const Table = () => css`
     border-bottom: 1px solid #ccc;
     text-align: center;
   }
-  
+
   tr:last-child {
     border-bottom: none;
   }

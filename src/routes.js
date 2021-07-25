@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components';
 
 import Home from './pages/home';
 
@@ -11,11 +11,10 @@ const GlobalStyles = () => css`
   height: 100%;
   top: 0;
   left: 0;
-  transition: all .3s ease-in-out;
-`
+  transition: all 0.3s ease-in-out;
+`;
 
-const GlobalContainer =  styled.div([GlobalStyles])
-
+const GlobalContainer = styled.div([GlobalStyles]);
 
 function Routes() {
   return (
