@@ -16,10 +16,16 @@ export const HeaderStyle = css`
     img {
         position: absolute;
         top: 8px;
-        left: 20px;
+        right: 20px;
+        filter: drop-shadow(4px 3px #000);
     }
 
     h1 {
         font-size: 36px;
+        font-family: Avenir;
+        color: #435159;
+        margin-bottom: 8px;
     }
 `
+
+HelloWorld('Jonathan');
