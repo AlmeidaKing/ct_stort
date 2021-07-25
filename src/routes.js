@@ -1,20 +1,30 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-
-/**
- * Arquivo para roteamento das paginas do site
- */
-import Navbar from './components/Navbar/Navbar';
+import styled, { css } from 'styled-components'
 
 import Home from './pages/home';
+
+const GlobalStyles = () => css`
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all .3s ease-in-out;
+`
+
+const GlobalContainer =  styled.div([GlobalStyles])
+
 
 function Routes() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Navbar />,
-        <Route exact path="/" component={Home} />
-      </Switch>
+      <GlobalContainer>
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
+      </GlobalContainer>
     </BrowserRouter>
   );
 }
