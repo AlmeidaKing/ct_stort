@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { HeaderStyle } from './styles';
 
-import Stort_Logo from '../../images/Stort_Logo.png';
+// import Stort_Logo from '../../images/Stort_Logo.png';
 
 const Header = () => {
   const HeaderStyled = styled.header([HeaderStyle]);
