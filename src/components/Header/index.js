@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <HeaderStyled>
       <h1>CT ALONSO STORT</h1>
-      <img src={Stort_Logo} width="100" />
+      {/* <img src={Stort_Logo} width="100" /> */}
     </HeaderStyled>
   );
 };
