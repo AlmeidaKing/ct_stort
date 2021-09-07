@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.482d9d69.chunk.css",
+    "main.js": "/static/js/main.5e7cfd54.chunk.js",
+    "main.js.map": "/static/js/main.5e7cfd54.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2493eb2e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2493eb2e.js.map",
+    "static/js/2.710ddf7e.chunk.js": "/static/js/2.710ddf7e.chunk.js",
+    "static/js/2.710ddf7e.chunk.js.map": "/static/js/2.710ddf7e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.482d9d69.chunk.css.map": "/static/css/main.482d9d69.chunk.css.map",
+    "static/js/2.710ddf7e.chunk.js.LICENSE.txt": "/static/js/2.710ddf7e.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "/static/media/OpenSans-SemiBold.a16d8201.ttf",
+    "static/media/Stort_Logo.5c5d8795.png": "/static/media/Stort_Logo.5c5d8795.png",
+    "static/media/TC_background.09b6afc8.jpg": "/static/media/TC_background.09b6afc8.jpg",
+    "static/media/bg_header.881f8bd2.jpg": "/static/media/bg_header.881f8bd2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2493eb2e.js",
+    "static/js/2.710ddf7e.chunk.js",
+    "static/css/main.482d9d69.chunk.css",
+    "static/js/main.5e7cfd54.chunk.js"
+  ]
+}
