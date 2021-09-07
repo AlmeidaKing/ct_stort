@@ -12,6 +12,7 @@ const GlobalStyles = () => css`
   top: 0;
   left: 0;
   transition: all 0.3s ease-in-out;
+  font-family: 'OpenSans';
 `;
 
 const GlobalContainer = styled.div([GlobalStyles]);

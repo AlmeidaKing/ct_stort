@@ -14,7 +14,7 @@ const ContainerStyle = css`
   height: 100vh;
   position: relative;
   color: white;
-  padding-right: 24px;
+  padding: 24px;
   text-align: right;
   display: flex;
   flex-direction: column;
@@ -25,18 +25,19 @@ const ContainerStyle = css`
   }
 `;
 
-const Title = styled.div`
+const Title = styled.span`
   font-weight: bold;
   font-size: 32px;
-  padding-top: 100px;
+  margin-top: 100px;
 
   @media (max-width: 470px) {
     padding-top: 120px;
   }
 `;
 
-const Text = styled.div`
+const Text = styled.span`
   font-weight: bold;
+  font-size: 16px;
   margin-top: 20px;
   width: 55%;
 `;

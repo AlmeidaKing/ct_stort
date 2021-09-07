@@ -6,26 +6,31 @@ export const Container = styled.div`
   background-color: #eee;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: flex-start;
-  padding-bottom: 50px;
+  padding: 24px;
 
   .title {
-    width: 90%;
-    margin: 120px 0 48px;
+    margin: 100px 0 48px;
     font-size: 20px;
     font-weight: bold;
   }
 
   .subtitle {
     width: 90%;
-    margin-top: 35px;
+    margin-top: 56px;
     font-size: 12px;
+  }
+
+  .table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
 export const Table = () => css`
-  width: 90%;
+  width: 100%;
   border-collapse: collapse;
 
   tr {
@@ -33,16 +38,15 @@ export const Table = () => css`
     text-align: center;
   }
 
-  tr:last-child {
-    border-bottom: none;
-  }
-
   th {
     height: 80px;
     width: 50%;
+    font-size: 18px;
   }
 
   td {
+    font-size: 16px;
     height: 50px;
+    vertical-align: middle;
   }
 `;

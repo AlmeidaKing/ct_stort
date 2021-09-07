@@ -12,7 +12,7 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "ignorePatterns": ["node_modules/", "src/images", "src/assets/css"],
+  "ignorePatterns": ["node_modules/", "src/images", "src/assets/css", "src/assets/fonts"],
   "rules": {
   }
 }
